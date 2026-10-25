@@ -1,0 +1,58 @@
+{
+  "en": {
+    "subtitle": "Markdown to PDF, DOCX and more",
+    "description": "Convert complete Markdown you supply to PDF, DOCX, HTML or EPUB without an account. The anonymous MCP service cannot read private projects or fetch remote URLs. It returns embedded file bytes; saving or attaching them depends on your client. Size and capacity limits apply. It does not create a permanent download link."
+  },
+  "es": {
+    "subtitle": "Markdown a PDF, DOCX y más",
+    "description": "Convierte el Markdown completo que proporciones a PDF, DOCX, HTML o EPUB sin cuenta. El servicio MCP anónimo no lee proyectos privados ni obtiene contenido de URL remotas. Devuelve los bytes del archivo; guardarlos o adjuntarlos depende del cliente. Se aplican límites de tamaño y capacidad. No crea un enlace de descarga permanente."
+  },
+  "pt": {
+    "subtitle": "Markdown para PDF, DOCX e mais",
+    "description": "Converta o Markdown completo que fornecer para PDF, DOCX, HTML ou EPUB sem conta. O serviço MCP anónimo não lê projetos privados nem obtém conteúdo de URLs remotos. Devolve os bytes do ficheiro; guardá-los ou anexá-los depende do cliente. Aplicam-se limites de tamanho e capacidade. Não cria uma ligação de descarga permanente."
+  },
+  "pt-BR": {
+    "subtitle": "Markdown para PDF, DOCX e mais",
+    "description": "Converta o Markdown completo que você fornecer para PDF, DOCX, HTML ou EPUB sem conta. O serviço MCP anônimo não lê projetos privados nem busca conteúdo de URLs remotas. Ele retorna os bytes do arquivo; salvá-los ou anexá-los depende do cliente. Há limites de tamanho e capacidade. Não cria um link de download permanente."
+  },
+  "de": {
+    "subtitle": "Markdown in PDF, DOCX und mehr",
+    "description": "Wandeln Sie vollständig bereitgestelltes Markdown ohne Konto in PDF, DOCX, HTML oder EPUB um. Der anonyme MCP-Dienst liest keine privaten Projekte und ruft keine entfernten URLs ab. Er liefert eingebettete Dateibytes; Speichern oder Anhängen hängt vom Client ab. Größen- und Kapazitätsgrenzen gelten. Es entsteht kein dauerhafter Downloadlink."
+  },
+  "it": {
+    "subtitle": "Markdown in PDF, DOCX e altro",
+    "description": "Converti il Markdown completo che fornisci in PDF, DOCX, HTML o EPUB senza account. Il servizio MCP anonimo non legge progetti privati né recupera URL remoti. Restituisce i byte del file incorporati; salvarli o allegarli dipende dal client. Si applicano limiti di dimensione e capacità. Non crea un link di download permanente."
+  },
+  "fr": {
+    "subtitle": "Markdown en PDF, DOCX et plus",
+    "description": "Convertissez le Markdown complet que vous fournissez en PDF, DOCX, HTML ou EPUB sans compte. Le service MCP anonyme ne lit aucun projet privé et ne récupère pas les URL distantes. Il renvoie les octets du fichier intégrés ; leur enregistrement ou ajout en pièce jointe dépend du client. Des limites de taille et de capacité s’appliquent. Aucun lien de téléchargement permanent n’est créé."
+  },
+  "ja": {
+    "subtitle": "MarkdownをPDF・DOCXなどに変換",
+    "description": "提供されたMarkdown全文を、アカウントなしでPDF、DOCX、HTML、EPUBに変換します。匿名MCPサービスは非公開プロジェクトを読まず、外部URLから取得もしません。ファイルのバイト列を埋め込んで返します。保存や添付はクライアントの対応状況によります。サイズと処理容量の制限があり、恒久的なダウンロードリンクは作成しません。"
+  },
+  "ko": {
+    "subtitle": "Markdown을 PDF, DOCX 등으로 변환",
+    "description": "제공한 Markdown 전체를 계정 없이 PDF, DOCX, HTML 또는 EPUB로 변환합니다. 익명 MCP 서비스는 비공개 프로젝트를 읽거나 원격 URL에서 내용을 가져오지 않습니다. 파일 바이트를 내장하여 반환하며 저장이나 첨부는 클라이언트 지원에 따라 달라집니다. 크기와 처리 용량 제한이 적용됩니다. 영구 다운로드 링크는 만들지 않습니다."
+  },
+  "zh": {
+    "subtitle": "将Markdown转为PDF、DOCX等格式",
+    "description": "无需账户，即可将你提供的完整Markdown转换为PDF、DOCX、HTML或EPUB。匿名MCP服务无法读取私有项目，也不会获取远程URL的内容。结果以内嵌文件字节返回，能否保存或附加文件取决于客户端。受文件大小和处理容量限制，不会创建永久下载链接。"
+  },
+  "zh-TW": {
+    "subtitle": "將Markdown轉為PDF、DOCX等格式",
+    "description": "無需帳戶，即可將你提供的完整Markdown轉換為PDF、DOCX、HTML或EPUB。匿名MCP服務無法讀取私人專案，也不會擷取遠端URL的內容。結果以內嵌檔案位元組傳回，能否儲存或附加檔案取決於用戶端。受檔案大小和處理容量限制，不會建立永久下載連結。"
+  },
+  "hi": {
+    "subtitle": "Markdown से PDF, DOCX और अधिक",
+    "description": "बिना खाते के आपके दिए पूरे Markdown को PDF, DOCX, HTML या EPUB में बदलें। अनाम MCP सेवा निजी प्रोजेक्ट नहीं पढ़ सकती और दूरस्थ URL से सामग्री नहीं लाती। यह फ़ाइल के बाइट अंतर्निहित रूप में लौटाती है; उन्हें सहेजना या संलग्न करना क्लाइंट पर निर्भर है। आकार और क्षमता की सीमाएँ लागू हैं। स्थायी डाउनलोड लिंक नहीं बनता।"
+  },
+  "bn": {
+    "subtitle": "Markdown থেকে PDF ও আরও",
+    "description": "অ্যাকাউন্ট ছাড়াই আপনার দেওয়া সম্পূর্ণ Markdown থেকে PDF, DOCX, HTML বা EPUB তৈরি করুন। বেনামী MCP পরিষেবা ব্যক্তিগত প্রকল্প পড়তে বা দূরবর্তী URL থেকে বিষয়বস্তু আনতে পারে না। এটি ফাইলের বাইট এম্বেড করে ফেরত দেয়; সংরক্ষণ বা সংযুক্ত করা ক্লায়েন্টের ওপর নির্ভর করে। আকার ও সক্ষমতার সীমা প্রযোজ্য। স্থায়ী ডাউনলোড লিংক তৈরি হয় না।"
+  },
+  "bn-BD": {
+    "subtitle": "Markdown থেকে PDF ও আরও",
+    "description": "অ্যাকাউন্ট ছাড়াই আপনার দেওয়া সম্পূর্ণ Markdown থেকে PDF, DOCX, HTML বা EPUB তৈরি করুন। বেনামী MCP পরিষেবা ব্যক্তিগত প্রকল্প পড়তে বা দূরবর্তী URL থেকে বিষয়বস্তু আনতে পারে না। এটি ফাইলের বাইট এম্বেড করে ফেরত দেয়; সংরক্ষণ বা সংযুক্ত করা ক্লায়েন্টের ওপর নির্ভর করে। আকার ও সক্ষমতার সীমা প্রযোজ্য। স্থায়ী ডাউনলোড লিংক তৈরি হয় না।"
+  }
+}

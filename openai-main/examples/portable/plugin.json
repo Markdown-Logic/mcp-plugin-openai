@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "markdown-logic",
+  "version": "0.2.0",
+  "description": "Find, read, create, revise and render team documents through authorized Markdown Logic MCP tools. Browser OAuth, account permissions, scopes and plan limits apply. Skills provide guidance and add no permissions. Confirm the intended project and audience before writes or sharing. File saving and interactive UI depend on your client.",
+  "author": {
+    "name": "Lemuridae Labs",
+    "url": "https://markdownlogic.com/"
+  },
+  "homepage": "https://markdownlogic.com/",
+  "license": "MIT",
+  "keywords": [
+    "documents",
+    "markdown",
+    "pdf",
+    "mcp"
+  ]
+}

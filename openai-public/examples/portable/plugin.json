@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "markdown-logic-public",
+  "version": "0.2.0",
+  "description": "Convert complete Markdown you supply to PDF, DOCX, HTML or EPUB without an account. The anonymous MCP service cannot read private projects or fetch remote URLs. It returns embedded file bytes; saving or attaching them depends on your client. Size and capacity limits apply. It does not create a permanent download link.",
+  "author": {
+    "name": "Lemuridae Labs",
+    "url": "https://markdownlogic.com/"
+  },
+  "homepage": "https://markdownlogic.com/",
+  "license": "MIT",
+  "keywords": [
+    "documents",
+    "markdown",
+    "pdf",
+    "mcp"
+  ]
+}
