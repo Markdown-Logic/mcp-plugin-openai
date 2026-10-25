@@ -29,6 +29,8 @@ See each source folder's README for setup, capabilities, and limits.
 
 Upload the ZIP for the intended profile through [OpenAI's Plugins dashboard](https://platform.openai.com/plugins). Follow [OpenAI's submission instructions](https://developers.openai.com/plugins/deploy/submission), connect the matching MCP server, resolve automated findings, and complete the review materials before submitting.
 
+The authenticated 0.2.0 ZIP contains the intake's five positive and three negative manifest test cases. Its supplemental `review-cases.json` retains all seven positive and five negative scenarios. This correction also documents both authenticated preview and rendering tools; the public package is unchanged.
+
 These packages are locally validated. Publication of this repository does not establish directory approval, live-client compatibility, or completion of connector qualification.
 
 ## License and support

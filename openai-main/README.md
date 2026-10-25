@@ -24,7 +24,7 @@ The authenticated profile can use private document properties when the service r
 
 For an explicitly requested document share, confirm the audience and expiry. `create_share` accepts `expiresInDays` of 30, 60, 90 or 365; omitting it selects 30 days and null selects Never. Never links can still be revoked and remain subject to document and team policy. These private tools are unavailable through the anonymous profile.
 
-The anonymous service has no interactive MCP App. The authenticated service advertises Render Studio for `render_document` through an MCP App resource; whether it loads and can save files depends on the client. The website's UI is a separate surface. Package validation does not establish that the MCP App works in ChatGPT or Claude.
+The anonymous service has no interactive MCP App. The authenticated service advertises Render Studio for `preview_document` and `render_document` through an MCP App resource; whether it loads and can save files depends on the client. The website's UI is a separate surface. Package validation does not establish that the MCP App works in ChatGPT or Claude.
 
 Read [setup instructions and limits](help/en.md), browse [localized help](help/), and see the [localized descriptions](listing-translations.json) and [example test scenarios](review-cases.json).
 
