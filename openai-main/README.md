@@ -1,6 +1,6 @@
 # Markdown Logic
 
-Manage, convert and display Markdown with your AI assistant. Share and collaborate on project documents, then export to PDF, DOCX and more. Explore app.markdownlogic.com.
+Manage, convert and display Markdown files with your AI assistant. Generate new documents, coordinate between team members and agents, and generate share links for others. Use built-in templates and rendering styles for professional documents in PDF, DOCX, and more. Explore the system at https://app.markdownlogic.com/.
 
 ## Connection
 

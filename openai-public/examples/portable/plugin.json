@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "markdown-logic-public",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Convert your Markdown into PDF, DOCX, HTML or EPUB—no Markdown Logic account required.",
   "author": {
     "name": "Markdown Logic",
