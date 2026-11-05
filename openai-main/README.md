@@ -1,6 +1,6 @@
 # Markdown Logic
 
-Find, read, create, revise and render team documents through authorized Markdown Logic MCP tools. Browser OAuth, account permissions, scopes and plan limits apply. Skills provide guidance and add no permissions. Confirm the intended project and audience before writes or sharing. File saving and interactive UI depend on your client.
+Manage, convert and display Markdown with your AI assistant. Share and collaborate on project documents, then export to PDF, DOCX and more. Explore app.markdownlogic.com.
 
 ## Connection
 
