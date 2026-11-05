@@ -1,6 +1,6 @@
 {
   "name": "markdown-logic",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Find, read, create, revise and render team documents through authorized Markdown Logic MCP tools. Browser OAuth, account permissions, scopes and plan limits apply. Skills provide guidance and add no permissions. Confirm the intended project and audience before writes or sharing. File saving and interactive UI depend on your client.",
   "author": {
     "name": "Lemuridae Labs",
@@ -88,7 +88,7 @@
         }
       },
       "publication": {
-        "release_notes": "MCP workflows for authorized team-document access and rendering.",
+        "release_notes": "Adds CycloneDX 1.5 VEX evidence to Security Review Studio, with bounded paging and source-bound inspection.",
         "translations": {
           "es": {
             "subtitle": "Documentos de equipo",
