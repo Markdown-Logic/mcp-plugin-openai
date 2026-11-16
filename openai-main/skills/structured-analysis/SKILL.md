@@ -4,7 +4,7 @@ description: Review security evidence in SBOM, VEX, CSAF and SARIF sources with 
 compatibility: Requires authenticated Markdown Logic MCP. Structured inspection supports only its explicitly listed profiles and excludes connected repository captures.
 metadata:
   author: Markdown Logic
-  version: "0.2.0"
+  version: "0.2.1"
   audience: authenticated
 ---
 
@@ -23,6 +23,7 @@ Load only the reference relevant to this task:
 - Static-analysis findings and coverage: [SARIF](references/sarif.md).
 - API contracts and compatibility: [OpenAPI](references/openapi.md).
 - Paging, metrics, and source binding for any inspection: [comparison evidence](references/comparison.md).
+- An uploaded scan or scanner-enriched artifact when `summarize_security_document` is actually discovered: [security summary](references/security-summary.md). This optional summary has its own profiles, count units and paging guards; it does not broaden `inspect_document` support. Use its complete JSON text when the client does not display the App. If the tool is absent, retain the supported inspection or authorized original-source workflow.
 
 For comparisons, state what each source/capture actually covers, what changed, what remains unknown, and where each claim is supported. Report comparable counts only when their scope and rules agree. Keep unknown values unknown. A zero known count, a missing field, an exhausted page, and a secure system are different claims. SBOM is not reachability; VEX is not scan proof; absent SARIF findings are not security proof; OpenAPI is not verified deployed behavior.
 

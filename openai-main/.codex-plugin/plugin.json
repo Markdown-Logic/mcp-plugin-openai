@@ -1,6 +1,6 @@
 {
   "name": "markdown-logic",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Manage, convert and display Markdown files with your AI assistant. Generate new documents, coordinate between team members and agents, and generate share links for others. Use built-in templates and rendering styles for professional documents in PDF, DOCX, and more. Explore the system at https://app.markdownlogic.com/.",
   "author": {
     "name": "Markdown Logic",
@@ -88,7 +88,7 @@
         }
       },
       "publication": {
-        "release_notes": "Adds CycloneDX 1.5 VEX evidence to Security Review Studio, with bounded paging and source-bound inspection.",
+        "release_notes": "Adds the distinct Agent memory skill, version-aware refresh with bounded document diffs, attributed append/tail workflows, project discovery metadata, and current security-summary guidance. Existing workflows remain available.",
         "translations": {
           "es": {
             "subtitle": "Documentos de equipo",

@@ -33,3 +33,5 @@ Read [setup instructions and limits](help/en.md), browse [localized help](help/)
 First-party configuration, Skills, documentation and the original geometric integration icon included in this package are licensed under the [MIT License](LICENSE), subject to the [license scope and notices](LICENSE-SCOPE.md). The private Markdown Logic platform remains under its existing terms. Product and third-party names, trademarks and logos are excluded from the copyright grant; third-party components retain their own licenses and notices. The license grants no right to imply endorsement.
 
 Support: support@markdownlogic.com. [Markdown Logic](https://markdownlogic.com/) · [Privacy](https://markdownlogic.com/privacy) · [Terms](https://markdownlogic.com/terms).
+
+This package contains only the two public conversion/help skills. It cannot retrieve authenticated memory, private projects or their properties. Use the separate authenticated package for team documents.

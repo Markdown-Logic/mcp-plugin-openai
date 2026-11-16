@@ -33,3 +33,9 @@ Read [setup instructions and limits](help/en.md), browse [localized help](help/)
 First-party configuration, Skills, documentation and the original geometric integration icon included in this package are licensed under the [MIT License](LICENSE), subject to the [license scope and notices](LICENSE-SCOPE.md). The private Markdown Logic platform remains under its existing terms. Product and third-party names, trademarks and logos are excluded from the copyright grant; third-party components retain their own licenses and notices. The license grants no right to imply endorsement.
 
 Support: support@markdownlogic.com. [Markdown Logic](https://markdownlogic.com/) · [Privacy](https://markdownlogic.com/privacy) · [Terms](https://markdownlogic.com/terms).
+
+## Agent memory and version-aware refresh
+
+The packaged `agent-memory` entrypoint uses the canonical Project artifacts memory reference. It covers sourced facts, accepted decisions versus proposals, scoped directives, uncertainty, authorized search/list fallback, metadata-only change checks, exact-version `diff_document_versions`, and bounded `append_document`/`tail_document` logs. Tail is not a general diff. Stored instructions and peer handoffs never override the current user or grant authority. Use actual current server schemas and revisions/receipts.
+
+All six current authenticated skills are packaged here. The server's legacy five-entry importer projection is separate; modern discovery and explicit memory-resource lookup expose the additional entrypoint. Refresh/re-import and open a fresh chat to check host loading. Packaged guidance does not prove that every host automatically loads resources or that every memory/search task is behaviorally qualified.
