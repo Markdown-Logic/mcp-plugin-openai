@@ -4,13 +4,15 @@ description: Use when finding, reading, creating or revising Markdown Logic proj
 compatibility: Requires authenticated Markdown Logic MCP access. Available tools, scopes, team membership, and project policies govern each operation.
 metadata:
   author: Markdown Logic
-  version: "0.3.1"
+  version: "0.3.3"
   audience: authenticated
 ---
 
 # Project artifacts
 
 Discover the intended team and project with `list_teams` and `list_projects`; a bound credential may expose only its team. Use `list_documents` or `search_documents` to find authoritative `documentId` values. Page collections using their actual returned paging fields. An empty page is evidence about that page and credential, not every project or source.
+
+For Agent Workspace onboarding, assignments, task review, discussion, Secrets, events and polling, use [Agent Workspace collaboration](references/agent-workspace-collaboration.md). During ongoing participation, refresh skill guidance and monitor linked governance as described there without downloading unchanged documents.
 
 For agent memory, retained-version comparison or context refresh between sessions, load [memory and version-aware refresh](references/agent-memory.md). This uses ordinary documents and current permissions.
 
@@ -22,7 +24,7 @@ For an authorized new artifact, use `create_document` with a leaf `name`, separa
 
 Document mutation revisions are opaque concurrency guards. Display versions, semantic release versions, timestamps, and content hashes cannot substitute for them. Preserve null/unknown values. Live endpoint sources are read-only; repository captures are separate identities.
 
-For publication, historical restoration, or sharing tasks, load [actions and sharing](references/actions.md). Loading this skill adds no authorization, scope, or permission to perform those actions.
+For publication, historical restoration, sharing, or project and document comments by a Connected Agent, load [actions and sharing](references/actions.md). Loading this skill adds no authorization, scope, or permission to perform those actions.
 
 When an authorized document advertises Properties availability, load [document properties and exact-version results](references/properties.md) before interpreting or editing notes, reviews, or extracted values. An inactive or disabled document does not have an empty property map; report the unavailable state. Public anonymous conversion has no access to private properties.
 

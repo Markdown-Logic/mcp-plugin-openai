@@ -1,6 +1,6 @@
 {
   "name": "markdown-logic-public",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Convert your Markdown into PDF, DOCX, HTML or EPUB—no Markdown Logic account required.",
   "author": {
     "name": "Markdown Logic",
@@ -87,7 +87,7 @@
         }
       },
       "publication": {
-        "release_notes": "Anonymous MCP conversion of supplied Markdown to PDF, DOCX, HTML and EPUB.",
+        "release_notes": "Refreshes anonymous conversion and recovery guidance. No sign-in is required for the public profile.",
         "translations": {
           "es": {
             "subtitle": "Markdown a PDF, DOCX y más",

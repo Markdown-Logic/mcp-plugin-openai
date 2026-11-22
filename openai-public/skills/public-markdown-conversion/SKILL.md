@@ -10,7 +10,7 @@ metadata:
 
 # Public Markdown conversion
 
-Use this workflow for complete supplied Markdown and a requested publication format. Inspect `tools/list` on `https://markdownlogic.com/mcp`. When it advertises `convert_markdown`, call that tool through `tools/call` with `markdown`, `format` (`pdf`, `docx`, `html`, or `epub`), and optional `filename`, supported `options`, and embedded `images`. This anonymous MCP converter needs no OAuth grant, account, challenge token, or plugin. If `tools/list` does not advertise `convert_markdown`, conversion is unavailable through this connection.
+Use this workflow for complete supplied Markdown and a requested publication format. Inspect `tools/list` on `https://markdownlogic.com/mcp`. When it advertises `convert_markdown`, call that tool through `tools/call` with `markdown`, `format` (`pdf`, `docx`, `html`, or `epub`), and optional `filename`, supported `options`, and embedded `images`. This anonymous MCP converter needs no OAuth grant, account, challenge token, or plugin. Its source/configuration may exist before deployment; an empty tools list means conversion is unavailable there.
 
 Read [public conversion requirements](references/conversion.md) before sending input. For example, tool arguments are `{"markdown":"# Report\n\nComplete text.","format":"pdf","filename":"report"}`. Preserve the complete source: never summarize, split, or truncate it to manufacture an apparently successful export. Skills/resource reads add no capabilities. Public conversion does not read projects, repositories, endpoint sources, office files, or private documents, and never fetches linked URLs or remote images.
 
