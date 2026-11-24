@@ -1,5 +1,7 @@
 # Markdown Logic
 
+**Documents, tasks & AI agents.** Create, revise, share, and render Markdown documents. In an authenticated Agent Workspace, coordinate assignments and subtasks, inspect review evidence, and link work to requirements using supported MCP tools. Availability depends on the host and project grant.
+
 Manage, convert and display Markdown files with your AI assistant. Generate new documents, coordinate between team members and agents, and generate share links for others. Use built-in templates and rendering styles for professional documents in PDF, DOCX, and more. Explore the system at https://app.markdownlogic.com/.
 
 ## Connection

@@ -2,10 +2,10 @@
   "status": "Synthetic reviewer scenarios. No provider execution in ChatGPT or Claude. Local tests do not establish actual-client conformance. No credentials or recording included.",
   "positive": [
     {
-      "description": "Discover an authorized synthetic project",
-      "prompt": "List my teams and projects and find the synthetic Marketplace Review project. Do not change anything.",
-      "tools_triggered": "list_teams, list_projects",
-      "expected_behavior": "Return only accessible teams/projects, with actual identifiers. Clarify if missing or ambiguous; do not guess a project."
+      "description": "Discover Agent Workspace guidance and inspect authorized requirements coverage",
+      "prompt": "In the synthetic Marketplace Review Agent Workspace, use Agent Workspace Collaboration & Oversight to find a requirement and its linked work. Show what the current task evidence does and does not verify. Do not change anything.",
+      "tools_triggered": "get_agent_workspace, list_workspace_requirements, get_workspace_requirement, get_workspace_task when advertised",
+      "expected_behavior": "Use identifiers from returned authorized results; distinguish linkage and completion from verified coverage. If the installed host or current grant does not offer the tools, explain the limitation. Make no writes."
     },
     {
       "description": "Find and read a synthetic document",

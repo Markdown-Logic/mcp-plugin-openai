@@ -1,58 +1,58 @@
 {
   "en": {
-    "subtitle": "Work with team documents",
-    "description": "Manage, convert and display Markdown files with your AI assistant. Generate new documents, coordinate between team members and agents, and generate share links for others. Use built-in templates and rendering styles for professional documents in PDF, DOCX, and more. Explore the system at https://app.markdownlogic.com/."
+    "subtitle": "Documents, tasks & AI agents",
+    "description": "Create, revise and share Markdown documents with your AI assistant, and render polished PDFs, DOCX and more. In Agent Workspaces, coordinate assignments and subtasks, track progress, review evidence and link work to requirements."
   },
   "es": {
-    "subtitle": "Documentos de equipo",
-    "description": "Gestiona, convierte y visualiza archivos Markdown con tu asistente de IA. Crea documentos, coordina a integrantes y agentes, y genera enlaces para compartir. Usa plantillas y estilos integrados para documentos profesionales en PDF, DOCX y más. Descubre el sistema en https://app.markdownlogic.com/."
+    "subtitle": "Documentos, tareas y agentes",
+    "description": "Gestiona, convierte y visualiza archivos Markdown con tu asistente de IA. Crea documentos, coordina a integrantes y agentes, y genera enlaces para compartir. Usa plantillas y estilos integrados para documentos profesionales en PDF, DOCX y más. Descubre el sistema en https://app.markdownlogic.com/. En los espacios de trabajo de agentes, coordina tareas y subtareas, sigue el progreso y vincula el trabajo a los requisitos."
   },
   "pt": {
-    "subtitle": "Documentos da equipa",
-    "description": "Gira, converta e visualize ficheiros Markdown com o seu assistente de IA. Crie documentos, coordene membros da equipa e agentes e gere ligações de partilha. Use modelos e estilos integrados para documentos profissionais em PDF, DOCX e mais. Conheça o sistema em https://app.markdownlogic.com/."
+    "subtitle": "Documentos, tarefas e agentes",
+    "description": "Gira, converta e visualize ficheiros Markdown com o seu assistente de IA. Crie documentos, coordene membros da equipa e agentes e gere ligações de partilha. Use modelos e estilos integrados para documentos profissionais em PDF, DOCX e mais. Conheça o sistema em https://app.markdownlogic.com/. Nos espaços de trabalho de agentes, coordene tarefas e subtarefas, acompanhe o progresso e associe o trabalho aos requisitos."
   },
   "pt-BR": {
-    "subtitle": "Documentos da equipe",
-    "description": "Gerencie, converta e visualize arquivos Markdown com seu assistente de IA. Crie documentos, coordene membros da equipe e agentes e gere links de compartilhamento. Use modelos e estilos integrados para documentos profissionais em PDF, DOCX e mais. Conheça o sistema em https://app.markdownlogic.com/."
+    "subtitle": "Documentos, tarefas e agentes",
+    "description": "Gerencie, converta e visualize arquivos Markdown com seu assistente de IA. Crie documentos, coordene membros da equipe e agentes e gere links de compartilhamento. Use modelos e estilos integrados para documentos profissionais em PDF, DOCX e mais. Conheça o sistema em https://app.markdownlogic.com/. Nos espaços de trabalho de agentes, coordene tarefas e subtarefas, acompanhe o andamento e vincule o trabalho aos requisitos."
   },
   "de": {
-    "subtitle": "Teamdokumente bearbeiten",
-    "description": "Verwalten, konvertieren und zeigen Sie Markdown-Dateien mit Ihrem KI-Assistenten an. Erstellen Sie Dokumente, koordinieren Sie Teammitglieder und Agenten und erzeugen Sie Freigabelinks. Nutzen Sie integrierte Vorlagen und Darstellungsstile für professionelle Dokumente in PDF, DOCX und mehr. Entdecken Sie das System unter https://app.markdownlogic.com/."
+    "subtitle": "Dokumente, Aufgaben & Agenten",
+    "description": "Verwalten, konvertieren und zeigen Sie Markdown-Dateien mit Ihrem KI-Assistenten an. Erstellen Sie Dokumente, koordinieren Sie Teammitglieder und Agenten und erzeugen Sie Freigabelinks. Nutzen Sie integrierte Vorlagen und Darstellungsstile für professionelle Dokumente in PDF, DOCX und mehr. Entdecken Sie das System unter https://app.markdownlogic.com/. Koordinieren Sie in Agenten-Workspaces Aufgaben und Teilaufgaben, verfolgen Sie den Fortschritt und verknüpfen Sie die Arbeit mit Anforderungen."
   },
   "it": {
-    "subtitle": "Documenti del team",
-    "description": "Gestisci, converti e visualizza file Markdown con il tuo assistente IA. Crea documenti, coordina membri del team e agenti e genera link di condivisione. Usa modelli e stili di rendering integrati per documenti professionali in PDF, DOCX e altro. Scopri il sistema su https://app.markdownlogic.com/."
+    "subtitle": "Documenti, attività e agenti",
+    "description": "Gestisci, converti e visualizza file Markdown con il tuo assistente IA. Crea documenti, coordina membri del team e agenti e genera link di condivisione. Usa modelli e stili di rendering integrati per documenti professionali in PDF, DOCX e altro. Scopri il sistema su https://app.markdownlogic.com/. Negli spazi di lavoro per agenti, coordina attività e sottoattività, segui i progressi e collega il lavoro ai requisiti."
   },
   "fr": {
-    "subtitle": "Documents d’équipe",
-    "description": "Gérez, convertissez et affichez des fichiers Markdown avec votre assistant IA. Créez des documents, coordonnez les membres de l’équipe et les agents, et générez des liens de partage. Utilisez les modèles et styles de rendu intégrés pour des documents professionnels en PDF, DOCX et plus. Découvrez le système sur https://app.markdownlogic.com/."
+    "subtitle": "Documents, tâches et agents",
+    "description": "Gérez, convertissez et affichez des fichiers Markdown avec votre assistant IA. Créez des documents, coordonnez les membres de l’équipe et les agents, et générez des liens de partage. Utilisez les modèles et styles de rendu intégrés pour des documents professionnels en PDF, DOCX et plus. Découvrez le système sur https://app.markdownlogic.com/. Dans les espaces de travail pour agents, coordonnez les tâches et sous-tâches, suivez leur avancement et reliez le travail aux exigences."
   },
   "ja": {
-    "subtitle": "チーム文書を操作",
-    "description": "AIアシスタントでMarkdownファイルを管理、変換、表示。新しい文書を作成し、チームメンバーやエージェント間の作業を調整して、共有リンクを生成できます。組み込みのテンプレートと表示スタイルを使い、PDFやDOCXなどのプロ仕様の文書を作成。詳しくはhttps://app.markdownlogic.com/。"
+    "subtitle": "文書・タスク・AIエージェント",
+    "description": "AIアシスタントでMarkdownファイルを管理、変換、表示。新しい文書を作成し、チームメンバーやエージェント間の作業を調整して、共有リンクを生成できます。組み込みのテンプレートと表示スタイルを使い、PDFやDOCXなどのプロ仕様の文書を作成。詳しくはhttps://app.markdownlogic.com/。 エージェントワークスペースでは、タスクやサブタスクを調整し、進捗を把握し、作業を要件に関連付けられます。"
   },
   "ko": {
-    "subtitle": "팀 문서 작업",
-    "description": "AI 어시스턴트로 Markdown 파일을 관리, 변환, 표시하세요. 새 문서를 만들고 팀원과 에이전트 간 작업을 조율하며 공유 링크를 생성하세요. 내장 템플릿과 렌더링 스타일로 PDF, DOCX 등의 전문 문서를 만드세요. https://app.markdownlogic.com/에서 자세히 알아보세요."
+    "subtitle": "문서, 작업 및 AI 에이전트",
+    "description": "AI 어시스턴트로 Markdown 파일을 관리, 변환, 표시하세요. 새 문서를 만들고 팀원과 에이전트 간 작업을 조율하며 공유 링크를 생성하세요. 내장 템플릿과 렌더링 스타일로 PDF, DOCX 등의 전문 문서를 만드세요. https://app.markdownlogic.com/에서 자세히 알아보세요. 에이전트 워크스페이스에서 작업과 하위 작업을 조율하고, 진행 상황을 추적하고, 작업을 요구사항에 연결하세요."
   },
   "zh": {
-    "subtitle": "处理团队文档",
-    "description": "使用 AI 助手管理、转换和显示 Markdown 文件。创建新文档，协调团队成员与智能体，并生成分享链接。使用内置模板和渲染样式制作 PDF、DOCX 等专业文档。访问 https://app.markdownlogic.com/ 了解详情。"
+    "subtitle": "文档、任务与 AI 智能体",
+    "description": "使用 AI 助手管理、转换和显示 Markdown 文件。创建新文档，协调团队成员与智能体，并生成分享链接。使用内置模板和渲染样式制作 PDF、DOCX 等专业文档。访问 https://app.markdownlogic.com/ 了解详情。 在智能体工作区协调任务和子任务、跟踪进度，并将工作关联到需求。"
   },
   "zh-TW": {
-    "subtitle": "處理團隊文件",
-    "description": "使用 AI 助手管理、轉換和顯示 Markdown 檔案。建立新文件，協調團隊成員與代理，並產生分享連結。使用內建範本和轉譯樣式製作 PDF、DOCX 等專業文件。造訪 https://app.markdownlogic.com/ 瞭解詳情。"
+    "subtitle": "文件、任務與 AI 代理",
+    "description": "使用 AI 助手管理、轉換和顯示 Markdown 檔案。建立新文件，協調團隊成員與代理，並產生分享連結。使用內建範本和轉譯樣式製作 PDF、DOCX 等專業文件。造訪 https://app.markdownlogic.com/ 瞭解詳情。 在代理工作區協調任務與子任務、追蹤進度，並將工作連結至需求。"
   },
   "hi": {
-    "subtitle": "टीम दस्तावेज़ों पर काम करें",
-    "description": "अपने AI सहायक से Markdown फ़ाइलें प्रबंधित करें, बदलें और दिखाएँ। नए दस्तावेज़ बनाएँ, टीम सदस्यों और एजेंटों के बीच समन्वय करें और साझा करने के लिंक बनाएँ। अंतर्निहित टेम्पलेट और रेंडरिंग शैलियों से PDF, DOCX और अन्य पेशेवर दस्तावेज़ तैयार करें। https://app.markdownlogic.com/ देखें।"
+    "subtitle": "दस्तावेज़, काम और एजेंट",
+    "description": "अपने AI सहायक से Markdown फ़ाइलें प्रबंधित करें, बदलें और दिखाएँ। नए दस्तावेज़ बनाएँ, टीम सदस्यों और एजेंटों के बीच समन्वय करें और साझा करने के लिंक बनाएँ। अंतर्निहित टेम्पलेट और रेंडरिंग शैलियों से PDF, DOCX और अन्य पेशेवर दस्तावेज़ तैयार करें। https://app.markdownlogic.com/ देखें। एजेंट कार्यस्थलों में कार्यों और उपकार्यों का समन्वय करें, प्रगति देखें और काम को आवश्यकताओं से जोड़ें।"
   },
   "bn": {
-    "subtitle": "দলের নথি নিয়ে কাজ",
-    "description": "আপনার AI সহকারী দিয়ে Markdown ফাইল পরিচালনা, রূপান্তর ও প্রদর্শন করুন। নতুন নথি তৈরি করুন, দলের সদস্য ও এজেন্টদের মধ্যে সমন্বয় করুন এবং শেয়ার লিংক তৈরি করুন। অন্তর্নির্মিত টেমপ্লেট ও রেন্ডারিং স্টাইলে PDF, DOCX ও অন্যান্য পেশাদার নথি তৈরি করুন। দেখুন https://app.markdownlogic.com/।"
+    "subtitle": "নথি, কাজ ও এজেন্ট",
+    "description": "আপনার AI সহকারী দিয়ে Markdown ফাইল পরিচালনা, রূপান্তর ও প্রদর্শন করুন। নতুন নথি তৈরি করুন, দলের সদস্য ও এজেন্টদের মধ্যে সমন্বয় করুন এবং শেয়ার লিংক তৈরি করুন। অন্তর্নির্মিত টেমপ্লেট ও রেন্ডারিং স্টাইলে PDF, DOCX ও অন্যান্য পেশাদার নথি তৈরি করুন। দেখুন https://app.markdownlogic.com/। এজেন্ট ওয়ার্কস্পেসে কাজ ও উপকাজের সমন্বয় করুন, অগ্রগতি দেখুন এবং কাজকে প্রয়োজনীয়তার সঙ্গে যুক্ত করুন।"
   },
   "bn-BD": {
-    "subtitle": "দলের নথি নিয়ে কাজ",
-    "description": "আপনার AI সহকারী দিয়ে Markdown ফাইল পরিচালনা, রূপান্তর ও প্রদর্শন করুন। নতুন নথি তৈরি করুন, দলের সদস্য ও এজেন্টদের মধ্যে সমন্বয় করুন এবং শেয়ার লিংক তৈরি করুন। অন্তর্নির্মিত টেমপ্লেট ও রেন্ডারিং স্টাইলে PDF, DOCX ও অন্যান্য পেশাদার নথি তৈরি করুন। দেখুন https://app.markdownlogic.com/।"
+    "subtitle": "নথি, কাজ ও এজেন্ট",
+    "description": "আপনার AI সহকারী দিয়ে Markdown ফাইল পরিচালনা, রূপান্তর ও প্রদর্শন করুন। নতুন নথি তৈরি করুন, দলের সদস্য ও এজেন্টদের মধ্যে সমন্বয় করুন এবং শেয়ার লিংক তৈরি করুন। অন্তর্নির্মিত টেমপ্লেট ও রেন্ডারিং স্টাইলে PDF, DOCX ও অন্যান্য পেশাদার নথি তৈরি করুন। দেখুন https://app.markdownlogic.com/। এজেন্ট ওয়ার্কস্পেসে কাজ ও উপকাজ সমন্বয় করুন, অগ্রগতি দেখুন এবং কাজের সঙ্গে চাহিদাগুলো যুক্ত করুন।"
   }
 }

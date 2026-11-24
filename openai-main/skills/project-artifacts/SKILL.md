@@ -4,7 +4,7 @@ description: Use when finding, reading, creating or revising Markdown Logic proj
 compatibility: Requires authenticated Markdown Logic MCP access. Available tools, scopes, team membership, and project policies govern each operation.
 metadata:
   author: Markdown Logic
-  version: "0.3.3"
+  version: "0.3.5"
   audience: authenticated
 ---
 
@@ -12,7 +12,7 @@ metadata:
 
 Discover the intended team and project with `list_teams` and `list_projects`; a bound credential may expose only its team. Use `list_documents` or `search_documents` to find authoritative `documentId` values. Page collections using their actual returned paging fields. An empty page is evidence about that page and credential, not every project or source.
 
-For Agent Workspace onboarding, assignments, task review, discussion, Secrets, events and polling, use [Agent Workspace collaboration](references/agent-workspace-collaboration.md). During ongoing participation, refresh skill guidance and monitor linked governance as described there without downloading unchanged documents.
+For requirements, assignments and oversight, use the [Agent Workspace Collaboration & Oversight skill](../agent-workspace-collaboration/SKILL.md). Clients that only load this entry can use the [Agent Workspace collaboration guide](references/agent-workspace-collaboration.md) to refresh skill guidance and monitor linked governance.
 
 For agent memory, retained-version comparison or context refresh between sessions, load [memory and version-aware refresh](references/agent-memory.md). This uses ordinary documents and current permissions.
 

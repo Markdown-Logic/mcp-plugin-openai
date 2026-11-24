@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "markdown-logic",
-  "version": "0.3.5",
-  "description": "Manage, convert and display Markdown files with your AI assistant. Generate new documents, coordinate between team members and agents, and generate share links for others. Use built-in templates and rendering styles for professional documents in PDF, DOCX, and more. Explore the system at https://app.markdownlogic.com/.",
+  "version": "0.3.6",
+  "description": "Create, revise and share Markdown documents with your AI assistant, and render polished PDFs, DOCX and more. In Agent Workspaces, coordinate assignments and subtasks, track progress, review evidence and link work to requirements.",
   "author": {
     "name": "Markdown Logic",
     "url": "https://markdownlogic.com/"
@@ -13,6 +13,9 @@
     "documents",
     "markdown",
     "pdf",
-    "mcp"
+    "mcp",
+    "agent-workspaces",
+    "tasks",
+    "requirements"
   ]
 }
