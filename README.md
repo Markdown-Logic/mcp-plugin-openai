@@ -4,8 +4,8 @@ OpenAI plugin packages for [Markdown Logic](https://markdownlogic.com/), version
 
 | Plugin | Source | Package ZIP |
 | --- | --- | --- |
-| Markdown Logic Public | [openai-public](openai-public/) | [openai-public-0.3.5.zip](dist/openai-public-0.3.5.zip) |
-| Markdown Logic | [openai-main](openai-main/) | [openai-main-0.3.5.zip](dist/openai-main-0.3.5.zip) |
+| Markdown Logic Public | [openai-public](openai-public/) | [openai-public-0.3.7.zip](dist/openai-public-0.3.7.zip) |
+| Markdown Logic | [openai-main](openai-main/) | [openai-main-0.3.7.zip](dist/openai-main-0.3.7.zip) |
 
 The public plugin converts complete supplied Markdown to PDF, DOCX, HTML or EPUB without an account. The authenticated plugin supports team document workflows through browser OAuth. Each source folder includes its own manifest, remote MCP configuration, Skills, setup documentation, and license notices.
 
@@ -39,7 +39,7 @@ The integration files in this repository are licensed under the [MIT License](LI
 
 Support: support@markdownlogic.com · [Privacy](https://markdownlogic.com/privacy) · [Documentation](https://markdownlogic.com/help/en/connect-an-ai-assistant.html)
 
-See [0.3.5 changes and qualification](RELEASE-0.3.5.md). Refresh or re-import the plugin after uploading; cached tools and skills in an existing chat do not establish what a new connection advertises.
+See [0.3.7 changes and qualification](RELEASE-0.3.7.md). Refresh or re-import the plugin after uploading; cached tools and skills in an existing chat do not establish what a new connection advertises.
 
 ## Authenticated skills
 

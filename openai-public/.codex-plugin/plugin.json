@@ -1,7 +1,7 @@
 {
   "name": "markdown-logic-public",
-  "version": "0.3.6",
-  "description": "Convert your Markdown into PDF, DOCX, HTML or EPUB—no Markdown Logic account required.",
+  "version": "0.3.7",
+  "description": "Convert your Markdown into PDF, DOCX, HTML or EPUB\u2014no Markdown Logic account required.",
   "author": {
     "name": "Markdown Logic",
     "url": "https://markdownlogic.com/"
@@ -17,7 +17,7 @@
   "interface": {
     "displayName": "Markdown Logic Public",
     "shortDescription": "Markdown to PDF, DOCX and more",
-    "longDescription": "Convert your Markdown into PDF, DOCX, HTML or EPUB—no Markdown Logic account required.",
+    "longDescription": "Convert your Markdown into PDF, DOCX, HTML or EPUB\u2014no Markdown Logic account required.",
     "developerName": "Markdown Logic",
     "category": "Productivity",
     "websiteURL": "https://markdownlogic.com/",
@@ -90,7 +90,7 @@
         "release_notes": "Refreshes anonymous conversion and recovery guidance. No sign-in is required for the public profile.",
         "translations": {
           "es": {
-            "subtitle": "Markdown a PDF, DOCX y más",
+            "subtitle": "Markdown a PDF, DOCX y m\u00e1s",
             "description": "Convierte tu Markdown a PDF, DOCX, HTML o EPUB sin necesidad de una cuenta de Markdown Logic."
           },
           "pt": {
@@ -103,7 +103,7 @@
           },
           "de": {
             "subtitle": "Markdown in PDF, DOCX und mehr",
-            "description": "Konvertieren Sie Markdown in PDF, DOCX, HTML oder EPUB – ohne Markdown-Logic-Konto."
+            "description": "Konvertieren Sie Markdown in PDF, DOCX, HTML oder EPUB \u2013 ohne Markdown-Logic-Konto."
           },
           "it": {
             "subtitle": "Markdown in PDF, DOCX e altro",
@@ -114,32 +114,32 @@
             "description": "Convertissez votre Markdown en PDF, DOCX, HTML ou EPUB sans compte Markdown Logic."
           },
           "ja": {
-            "subtitle": "MarkdownをPDF・DOCXなどに変換",
-            "description": "Markdown Logicのアカウントなしで、MarkdownをPDF、DOCX、HTML、EPUBに変換できます。"
+            "subtitle": "Markdown\u3092PDF\u30fbDOCX\u306a\u3069\u306b\u5909\u63db",
+            "description": "Markdown Logic\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306a\u3057\u3067\u3001Markdown\u3092PDF\u3001DOCX\u3001HTML\u3001EPUB\u306b\u5909\u63db\u3067\u304d\u307e\u3059\u3002"
           },
           "ko": {
-            "subtitle": "Markdown을 PDF, DOCX 등으로 변환",
-            "description": "Markdown Logic 계정 없이 Markdown을 PDF, DOCX, HTML 또는 EPUB으로 변환하세요."
+            "subtitle": "Markdown\uc744 PDF, DOCX \ub4f1\uc73c\ub85c \ubcc0\ud658",
+            "description": "Markdown Logic \uacc4\uc815 \uc5c6\uc774 Markdown\uc744 PDF, DOCX, HTML \ub610\ub294 EPUB\uc73c\ub85c \ubcc0\ud658\ud558\uc138\uc694."
           },
           "zh": {
-            "subtitle": "将Markdown转为PDF、DOCX等格式",
-            "description": "无需 Markdown Logic 账户，即可将 Markdown 转换为 PDF、DOCX、HTML 或 EPUB。"
+            "subtitle": "\u5c06Markdown\u8f6c\u4e3aPDF\u3001DOCX\u7b49\u683c\u5f0f",
+            "description": "\u65e0\u9700 Markdown Logic \u8d26\u6237\uff0c\u5373\u53ef\u5c06 Markdown \u8f6c\u6362\u4e3a PDF\u3001DOCX\u3001HTML \u6216 EPUB\u3002"
           },
           "zh-TW": {
-            "subtitle": "將Markdown轉為PDF、DOCX等格式",
-            "description": "無需 Markdown Logic 帳戶，即可將 Markdown 轉換為 PDF、DOCX、HTML 或 EPUB。"
+            "subtitle": "\u5c07Markdown\u8f49\u70baPDF\u3001DOCX\u7b49\u683c\u5f0f",
+            "description": "\u7121\u9700 Markdown Logic \u5e33\u6236\uff0c\u5373\u53ef\u5c07 Markdown \u8f49\u63db\u70ba PDF\u3001DOCX\u3001HTML \u6216 EPUB\u3002"
           },
           "hi": {
-            "subtitle": "Markdown से PDF, DOCX और अधिक",
-            "description": "Markdown Logic खाते के बिना Markdown को PDF, DOCX, HTML या EPUB में बदलें।"
+            "subtitle": "Markdown \u0938\u0947 PDF, DOCX \u0914\u0930 \u0905\u0927\u093f\u0915",
+            "description": "Markdown Logic \u0916\u093e\u0924\u0947 \u0915\u0947 \u092c\u093f\u0928\u093e Markdown \u0915\u094b PDF, DOCX, HTML \u092f\u093e EPUB \u092e\u0947\u0902 \u092c\u0926\u0932\u0947\u0902\u0964"
           },
           "bn": {
-            "subtitle": "Markdown থেকে PDF ও আরও",
-            "description": "Markdown Logic অ্যাকাউন্ট ছাড়াই Markdown-কে PDF, DOCX, HTML বা EPUB-এ রূপান্তর করুন।"
+            "subtitle": "Markdown \u09a5\u09c7\u0995\u09c7 PDF \u0993 \u0986\u09b0\u0993",
+            "description": "Markdown Logic \u0985\u09cd\u09af\u09be\u0995\u09be\u0989\u09a8\u09cd\u099f \u099b\u09be\u09a1\u09bc\u09be\u0987 Markdown-\u0995\u09c7 PDF, DOCX, HTML \u09ac\u09be EPUB-\u098f \u09b0\u09c2\u09aa\u09be\u09a8\u09cd\u09a4\u09b0 \u0995\u09b0\u09c1\u09a8\u0964"
           },
           "bn-BD": {
-            "subtitle": "Markdown থেকে PDF ও আরও",
-            "description": "Markdown Logic অ্যাকাউন্ট ছাড়াই Markdown-কে PDF, DOCX, HTML বা EPUB-এ রূপান্তর করুন।"
+            "subtitle": "Markdown \u09a5\u09c7\u0995\u09c7 PDF \u0993 \u0986\u09b0\u0993",
+            "description": "Markdown Logic \u0985\u09cd\u09af\u09be\u0995\u09be\u0989\u09a8\u09cd\u099f \u099b\u09be\u09a1\u09bc\u09be\u0987 Markdown-\u0995\u09c7 PDF, DOCX, HTML \u09ac\u09be EPUB-\u098f \u09b0\u09c2\u09aa\u09be\u09a8\u09cd\u09a4\u09b0 \u0995\u09b0\u09c1\u09a8\u0964"
           }
         }
       }

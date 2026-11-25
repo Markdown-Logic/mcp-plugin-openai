@@ -1,31 +1,3 @@
----
-title: Connect an AI assistant with MCP
-summary: Convert supplied Markdown without an account, or authorize an assistant to work with team documents.
-description: Connect an AI assistant for anonymous Markdown conversion or authorized team document work. Learn the MCP limits, browser OAuth flow and client-dependent Skills support.
-topics: [Model Context Protocol, MCP, AI assistants, permissions]
-appliesTo: Anonymous conversion needs no account. Any plan. Reading a document's saved version history needs Personal or above.
-updated: 2026-10-22
-verb: out
-steps:
-  - For supplied Markdown without an account, connect to https://markdownlogic.com/mcp and look for convert_markdown.
-  - "Connect to private team documents: Point your MCP client at https://mcp.markdownlogic.com and let it complete the browser sign-in."
-  - Ask it what it can see. It gets the same projects and documents that your role and plan give you in the app.
-  - Review or revoke access from "Applications" in the account menu.
-related: [write-and-render, share-a-document, import-documents]
----
-
-## Convert supplied Markdown without an account
-
-Add `https://markdownlogic.com/mcp` as a remote MCP server. When it advertises `convert_markdown`, ask for PDF, DOCX, HTML or EPUB from Markdown you supply. This public connection needs no account, OAuth sign-in or browser challenge.
-
-Send the complete Markdown, up to **128 KiB** (131,072 UTF-8 bytes). The result is an embedded base64 file, up to **2 MiB** (2,097,152 bytes); your client must save or attach those bytes. Its URI is not a hosted download or permanent link. Public conversion reads no private files or projects and never fetches remote URLs or images.
-
-Current conversion budgets are **3 per minute per network address**, **20 per UTC day per address**, and **80 per UTC day shared across public users**. A separate limit of 20 MCP POST requests per 60 seconds also covers discovery. These are maximum sizes and capacity budgets: conversion can fail below them. On a capacity refusal, wait; do not automatically retry a refusal or uncertain result, shorten the source, or claim a file was created.
-
-## Client support and Skills
-
-Remote MCP, OAuth, embedded-file saving and Skills support depend on the client host. Five private workflow Skills and two public conversion/help Skills can be loaded progressively where supported; they give no additional permissions or tools. Ordinary advertised tools and resources still work without Skills. If your client cannot save the embedded file, use [the browser converter](https://markdownlogic.com/), which has its own limits and browser challenge.
-
 ## Connect to private team documents
 
 Connect an AI assistant to [Markdown Logic](https://app.markdownlogic.com)
@@ -36,24 +8,6 @@ authorization, scopes and team permissions.
 Choose the access it needs for the task, then test the connection with a
 read before asking it to publish or change content. The assistant works with
 the same projects and source documents that you see in the app.
-
-## Connect it
-
-Use a client that supports remote MCP and browser OAuth. Add this private server URL:
-
-```
-https://mcp.markdownlogic.com
-```
-
-Add that URL as an MCP server in your client. The client finds the sign-in
-flow on its own: a browser window opens, you sign in as yourself, and the
-assistant receives a token scoped to your account. A scripted or CLI-style
-client that already holds an access token can skip the browser step and
-send the token as an `Authorization: Bearer <token>` header.
-
-Don't reuse a `client_credentials`-only OAuth client that you created for CI.
-Those clients have no redirect URI and can't complete a browser sign-in. An
-MCP client registers its own.
 
 ## What it can do
 

@@ -1,7 +1,7 @@
 import hashlib,json,re,unittest,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='0.3.6'
+VERSION='0.3.7'
 MAIN={'agent-memory','agent-workspace-collaboration','api-integration-planner','convert-render','project-artifacts','research-projects','structured-analysis'}
 PUBLIC={'public-conversion-help','public-markdown-conversion'}
 class PackageTests(unittest.TestCase):
@@ -40,7 +40,7 @@ class PackageTests(unittest.TestCase):
     self.assertEqual(set(z.namelist()),set(expected));self.assertIsNone(z.testzip());self.assertIn('.codex-plugin/plugin.json',z.namelist())
     for name,data in expected.items():self.assertEqual(z.read(name),data,name)
  def test_exported_provenance_has_no_private_source_or_secrets(self):
-  receipt=json.loads((ROOT/'SOURCE-MANIFEST-0.3.6.json').read_text())
+  receipt=json.loads((ROOT/'SOURCE-MANIFEST-0.3.7.json').read_text())
   self.assertEqual(receipt['canonicalRelease'],'rc.8.12');self.assertEqual(receipt['version'],VERSION)
   for rel,row in receipt['files'].items():self.assertEqual(hashlib.sha256((ROOT/rel).read_bytes()).hexdigest(),row['packagedSha256'])
   for profile in ['main','public']:

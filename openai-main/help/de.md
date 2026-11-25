@@ -1,29 +1,3 @@
----
-title: Einen KI-Assistenten verbinden
-summary: Konvertieren Sie bereitgestelltes Markdown ohne Konto oder erlauben Sie einem Assistenten, mit Teamdokumenten zu arbeiten.
-appliesTo: Anonyme Konvertierung benötigt kein Konto. Alle Tarife. Zum Lesen des gespeicherten Versionsverlaufs eines Dokuments ist Personal oder höher nötig.
-updated: 2026-10-22
-verb: out
-steps:
-  - Verbinden Sie bereitgestelltes Markdown ohne Konto über https://markdownlogic.com/mcp und suchen Sie nach convert_markdown.
-  - "Private Teamdokumente verbinden: Richten Sie Ihren MCP-Client auf https://mcp.markdownlogic.com aus und lassen Sie ihn die Anmeldung im Browser abschließen."
-  - Fragen Sie ihn, was er sehen kann. Er erhält dieselben Projekte und Dokumente, die Ihnen Ihre Rolle und Ihr Tarif in der App geben.
-  - Prüfen oder widerrufen Sie den Zugriff unter „Anwendungen“ im Kontomenü.
-related: [write-and-render, share-a-document, import-documents]
----
-
-## Bereitgestelltes Markdown ohne Konto konvertieren
-
-Fügen Sie `https://markdownlogic.com/mcp` als entfernten MCP-Server hinzu. Wenn er `convert_markdown` anbietet, fordern Sie PDF, DOCX, HTML oder EPUB aus Ihrem bereitgestellten Markdown an. Diese öffentliche Verbindung benötigt weder ein Konto noch eine OAuth-Anmeldung oder Browserprüfung.
-
-Senden Sie das vollständige Markdown bis **128 KiB** (131.072 UTF-8-Bytes). Das Ergebnis ist eine eingebettete Base64-Datei bis **2 MiB** (2.097.152 Bytes); Ihr Client muss diese Bytes speichern oder anhängen. Die URI ist kein gehosteter Download und kein dauerhafter Link. Die öffentliche Konvertierung liest keine privaten Dateien oder Projekte und ruft keine entfernten URLs oder Bilder ab.
-
-Die aktuellen Kontingente sind **3 Konvertierungen pro Minute und Netzwerkadresse**, **20 pro UTC-Tag und Adresse** und **80 pro UTC-Tag gemeinsam für öffentliche Nutzer**. Eine separate Grenze von 20 MCP-POST-Anfragen pro 60 Sekunden umfasst auch die Erkennung. Dies sind Höchstgrößen und Kapazitätskontingente: Konvertierungen können darunter scheitern. Warten Sie bei einer Kapazitätsablehnung; wiederholen Sie eine Ablehnung oder ein ungewisses Ergebnis nicht automatisch, kürzen Sie den Text nicht und behaupten Sie nicht, eine Datei sei erstellt worden.
-
-## Client-Unterstützung und Skills
-
-Die Unterstützung für entferntes MCP, OAuth, eingebettete Dateien und Skills hängt vom Client-Host ab. Fünf private Workflow-Skills und zwei öffentliche Konvertierungs-/Hilfe-Skills können bei Unterstützung schrittweise geladen werden; sie geben keine zusätzlichen Berechtigungen oder Werkzeuge. Die angebotenen Werkzeuge und Ressourcen funktionieren auch ohne Skills. Kann Ihr Client die Datei nicht speichern, verwenden Sie [den Browser-Konverter](https://markdownlogic.com/) mit eigenen Grenzen und eigener Browserprüfung.
-
 ## Private Teamdokumente verbinden
 
 Mit dem MCP-Server von Markdown Logic kann ein KI-Assistent Ihre Dokumente
@@ -31,25 +5,6 @@ lesen und in sie schreiben, und zwar über das Model Context Protocol, das
 die meisten Assistenten bereits unterstützen. Ein Assistent, der Ihre
 Dokumente lesen kann, kann Fragen dazu beantworten. Kann er auch schreiben,
 speichert er seine Antwort als Aktualisierung im Dokument.
-
-## Verbinden
-
-Verwenden Sie einen Client mit Unterstützung für entferntes MCP und Browser-OAuth. Fügen Sie diese private Server-URL hinzu:
-
-```
-https://mcp.markdownlogic.com
-```
-
-Fügen Sie diese URL in Ihrem Client als MCP-Server hinzu. Der Client findet
-den Anmeldeablauf selbst: Ein Browserfenster öffnet sich, Sie melden sich mit
-Ihrem eigenen Konto an, und der Assistent erhält ein Token, das auf Ihr Konto
-beschränkt ist. Ein skriptgesteuerter oder CLI-artiger Client, der bereits
-ein Zugriffstoken besitzt, kann den Browserschritt überspringen und das Token
-als Header `Authorization: Bearer <token>` senden.
-
-Verwenden Sie keinen reinen `client_credentials`-OAuth-Client, den Sie für CI
-erstellt haben. Solche Clients haben keine Redirect-URI und können keine
-Anmeldung im Browser abschließen. Ein MCP-Client registriert seinen eigenen.
 
 ## Was er tun kann
 

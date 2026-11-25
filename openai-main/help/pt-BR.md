@@ -1,29 +1,3 @@
----
-title: Conecte um assistente de IA
-summary: Converta Markdown fornecido sem conta ou autorize um assistente a trabalhar com documentos da equipe.
-appliesTo: A conversão anônima não exige conta. Qualquer plano. Ler o histórico de versões salvas de um documento exige Personal ou superior.
-updated: 2026-10-22
-verb: out
-steps:
-  - Para Markdown fornecido sem conta, conecte a https://markdownlogic.com/mcp e procure convert_markdown.
-  - "Conecte documentos privados da equipe: Aponte o seu cliente MCP para https://mcp.markdownlogic.com e deixe que ele conclua o login no navegador."
-  - Pergunte ao assistente o que ele consegue ver. Ele tem acesso aos mesmos projetos e documentos que a sua função e o seu plano liberam no app.
-  - Revise ou revogue o acesso em "Aplicações", no menu da conta.
-related: [write-and-render, share-a-document, import-documents]
----
-
-## Converta Markdown fornecido sem conta
-
-Adicione `https://markdownlogic.com/mcp` como servidor MCP remoto. Quando ele anunciar `convert_markdown`, peça PDF, DOCX, HTML ou EPUB a partir do Markdown fornecido. Essa conexão pública não exige conta, login OAuth nem verificação no navegador.
-
-Envie o Markdown completo, até **128 KiB** (131.072 bytes UTF-8). O resultado é um arquivo base64 incorporado de até **2 MiB** (2.097.152 bytes); o cliente precisa salvar ou anexar esses bytes. O URI não é um download hospedado nem um link permanente. A conversão pública não lê arquivos ou projetos privados nem busca URLs ou imagens remotas.
-
-Os limites atuais são **3 conversões por minuto por endereço de rede**, **20 por dia UTC por endereço**, e **80 por dia UTC compartilhadas entre usuários públicos**. Um limite separado de 20 requisições MCP POST por 60 segundos também inclui a descoberta. São tamanhos máximos e limites de capacidade: a conversão pode falhar abaixo deles. Se a capacidade for recusada, aguarde; não repita automaticamente uma recusa ou um resultado incerto, não encurte o texto nem afirme que um arquivo foi criado.
-
-## Suporte do cliente e Skills
-
-O suporte a MCP remoto, OAuth, salvamento de arquivos incorporados e Skills depende do cliente anfitrião. Cinco Skills de fluxos privados e duas de conversão/ajuda pública podem ser carregadas progressivamente onde houver suporte; não concedem permissões ou ferramentas adicionais. As ferramentas e os recursos anunciados funcionam sem Skills. Se o cliente não salvar o arquivo, use [o conversor no navegador](https://markdownlogic.com/), com seus próprios limites e verificação.
-
 ## Conecte documentos privados da equipe
 
 O servidor MCP do Markdown Logic permite que um assistente de IA leia os
@@ -31,25 +5,6 @@ seus documentos e escreva neles, por meio do Model Context Protocol, que a
 maioria dos assistentes já suporta. Um assistente que lê os seus
 documentos pode responder a perguntas sobre eles. Um que também escreve
 pode salvar a resposta no documento como uma atualização.
-
-## Conecte o assistente
-
-Use um cliente compatível com MCP remoto e OAuth no navegador. Adicione esta URL do servidor privado:
-
-```
-https://mcp.markdownlogic.com
-```
-
-Adicione essa URL como servidor MCP no seu cliente. O cliente encontra o
-fluxo de login sozinho: uma janela do navegador se abre, você faz login com
-a sua própria conta, e o assistente recebe um token com o escopo da sua
-conta. Um cliente de script ou de linha de comando que já tenha um token de
-acesso pode pular a etapa do navegador e enviar o token em um cabeçalho
-`Authorization: Bearer <token>`.
-
-Não reutilize um cliente OAuth somente de `client_credentials` criado para
-CI. Esses clientes não têm URI de redirecionamento e não conseguem concluir
-um login no navegador. Um cliente MCP registra o próprio cliente.
 
 ## O que ele pode fazer
 

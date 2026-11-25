@@ -10,7 +10,7 @@ Endpoint: `https://mcp.markdownlogic.com`
 
 Authentication: `oauth`
 
-Use a client that supports remote MCP and this package's plugin format. Install the package through the client's supported plugin mechanism, or configure its remote MCP connection with the endpoint above. For `none`, the anonymous service needs no account, OAuth sign-in or browser challenge. For `oauth`, use a client that supports browser OAuth and dynamic client registration; sign in with the account whose documents you intend to use. Keep tokens and credentials out of plugin configuration files.
+Use this package’s declared hosted Markdown Logic connection and complete browser OAuth if prompted. Do not add another server or place credentials in the plugin configuration.
 
 The package includes remote-server configuration and workflow Skills. Skills provide instructions; they grant no permissions and add no server tools. Call only the tools actually advertised by the connected server. Available tools, team membership, account permissions, OAuth scopes and plan limits govern authenticated operations. Confirm the intended project and audience before writing or sharing. Existing project audiences can include newly created documents; a request to create a document does not make its destination private.
 

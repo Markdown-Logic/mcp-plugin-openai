@@ -1,44 +1,6 @@
----
-title: 连接 AI 助手
-summary: 无需账户转换所提供的 Markdown，或授权助手处理团队文档。
-appliesTo: 匿名转换无需账户。 适用于所有套餐。读取文档已保存的版本历史需要 Personal 及以上套餐。
-updated: 2026-10-22
-verb: out
-steps:
-  - 无需账户转换所提供的 Markdown 时，连接 https://markdownlogic.com/mcp 并查找 convert_markdown。
-  - "连接团队的私有文档： 将你的 MCP 客户端指向 https://mcp.markdownlogic.com，并让它完成浏览器登录。"
-  - 询问它能看到哪些内容。它能访问的项目和文档，与你的角色和套餐在应用中允许你访问的相同。
-  - 在账户菜单的“应用”中查看或撤销访问权限。
-related: [write-and-render, share-a-document, import-documents]
----
-
-## 无需账户转换所提供的 Markdown
-
-将 `https://markdownlogic.com/mcp` 添加为远程 MCP 服务器。当它提供 `convert_markdown` 时，可要求将您提供的 Markdown 转换为 PDF、DOCX、HTML 或 EPUB。此公开连接无需账户、OAuth 登录或浏览器验证。
-
-发送完整 Markdown，最大 **128 KiB**（131,072 个 UTF-8 字节）。结果是最大 **2 MiB**（2,097,152 字节）的内嵌 base64 文件，客户端必须保存或附加这些字节。其 URI 不是托管下载地址或永久链接。公开转换不会读取私有文件或项目，也不会获取远程 URL 或图片。
-
-当前转换预算为：**每个网络地址每分钟 3 次**、**每个地址每个 UTC 日 20 次**、**公开用户共享每个 UTC 日 80 次**。另有每 60 秒 20 次 MCP POST 请求限制，包括发现请求。这些是最大大小和容量预算，低于限制也可能转换失败。遇到容量拒绝请等待；不要自动重试拒绝或结果不明确的请求，不要缩短原文或声称文件已生成。
-
-## 客户端支持与 Skills
-
-远程 MCP、OAuth、内嵌文件保存和 Skills 支持取决于客户端宿主。支持的宿主可逐步加载 5 个私有工作流 Skills 和 2 个公开转换／帮助 Skills；它们不增加权限或工具。已提供的普通工具和资源不依赖 Skills。如果客户端无法保存内嵌文件，可使用[浏览器转换器](https://markdownlogic.com/)，它有自己的限制和浏览器验证。
-
 ## 连接团队的私有文档
 
 Markdown Logic 的 MCP 服务器通过大多数助手已经支持的 Model Context Protocol，让 AI 助手读取和写入你的文档。能读取文档的助手可以回答与文档相关的问题；能写入文档的助手还可以把回答作为更新保存到文档中。
-
-## 连接助手
-
-使用支持远程 MCP 和浏览器 OAuth 的客户端，添加以下私有服务器 URL：
-
-```
-https://mcp.markdownlogic.com
-```
-
-在客户端中将该 URL 添加为 MCP 服务器。客户端会自行找到登录流程：浏览器窗口打开后，你以自己的身份登录，助手会获得一个限定于你账户的令牌。已经持有访问令牌的脚本化客户端或 CLI 类客户端可以跳过浏览器步骤，将令牌作为 `Authorization: Bearer <token>` 标头发送。
-
-不要复用你为 CI 创建的、仅支持 `client_credentials` 的 OAuth 客户端。这类客户端没有重定向 URI，无法完成浏览器登录。MCP 客户端会注册自己的客户端。
 
 ## 助手能做什么
 

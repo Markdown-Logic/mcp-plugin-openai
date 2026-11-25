@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "markdown-logic",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Create, revise and share Markdown documents with your AI assistant, and render polished PDFs, DOCX and more. In Agent Workspaces, coordinate assignments and subtasks, track progress, review evidence and link work to requirements.",
   "author": {
     "name": "Markdown Logic",

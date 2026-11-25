@@ -1,0 +1,203 @@
+{
+  "version": "0.3.7",
+  "canonicalRelease": "rc.8.12",
+  "releaseCommit": "bfeac06fc22450d24daac398ac84d6e548ebb4ca",
+  "adaptation": "Convert same-profile skill URIs to relative links, strip internal revision metadata when present.",
+  "files": {
+    "openai-main/skills/agent-memory/SKILL.md": {
+      "canonicalSha256": "135e3b16d25f2ed9eefa4224183bfac79146f9e39c776579efdd6fece88a47eb",
+      "packagedSha256": "015dba4be62e8d61e1cac9e15ca4a55ef2f1e91cf3b01490fd28ab400e18f620",
+      "adapted": true
+    },
+    "openai-main/skills/agent-memory/references/growing-documents.md": {
+      "canonicalSha256": "b9e6f4ef663ad878706ed41492fb820814950f852fd9b2c359a3824ee0d943e9",
+      "packagedSha256": "b9e6f4ef663ad878706ed41492fb820814950f852fd9b2c359a3824ee0d943e9",
+      "adapted": false
+    },
+    "openai-main/skills/agent-workspace-collaboration/SKILL.md": {
+      "canonicalSha256": "882184ec0bb745ed244d858dd1def7bebf8b14ac9b5b7a47cfe4b07851f4f03f",
+      "packagedSha256": "e58c651eebf68ff9f507a38e57f02edb1cfe37b2ae24ebf102a4883fb1ed8642",
+      "adapted": true
+    },
+    "openai-main/skills/api-integration-planner/SKILL.md": {
+      "canonicalSha256": "1b2f6a12a912329fa5e84f64a571e8272f86747e2f830be0eab1be4ed271ff2e",
+      "packagedSha256": "1b2f6a12a912329fa5e84f64a571e8272f86747e2f830be0eab1be4ed271ff2e",
+      "adapted": false
+    },
+    "openai-main/skills/api-integration-planner/references/connection-recovery.md": {
+      "canonicalSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "packagedSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "adapted": false
+    },
+    "openai-main/skills/api-integration-planner/references/contracts.md": {
+      "canonicalSha256": "928cfebbb55603c2dba89eabd688f7e460c9421431a6d24c5ec8831c0e81fafe",
+      "packagedSha256": "928cfebbb55603c2dba89eabd688f7e460c9421431a6d24c5ec8831c0e81fafe",
+      "adapted": false
+    },
+    "openai-main/skills/api-integration-planner/references/evidence.md": {
+      "canonicalSha256": "e7651d788508f21980a8c4aa90099dc174009ad5c7358220f1e6b91b91f566f4",
+      "packagedSha256": "e7651d788508f21980a8c4aa90099dc174009ad5c7358220f1e6b91b91f566f4",
+      "adapted": false
+    },
+    "openai-main/skills/api-integration-planner/references/protocol-profiles.md": {
+      "canonicalSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "packagedSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "adapted": false
+    },
+    "openai-main/skills/api-integration-planner/references/source-reading.md": {
+      "canonicalSha256": "d70ebbc4220185f8c7e3f902619814faa74410fabdb9feb83a0d35754be62dca",
+      "packagedSha256": "d70ebbc4220185f8c7e3f902619814faa74410fabdb9feb83a0d35754be62dca",
+      "adapted": false
+    },
+    "openai-main/skills/api-integration-planner/references/validation.md": {
+      "canonicalSha256": "fddfd2262c01db85697bd9c5157b516ff62730a701830212ca70383b5600e864",
+      "packagedSha256": "fddfd2262c01db85697bd9c5157b516ff62730a701830212ca70383b5600e864",
+      "adapted": false
+    },
+    "openai-main/skills/convert-render/SKILL.md": {
+      "canonicalSha256": "5b2fabf5cb847ba622e80dea9db3e48121e94ad4789e8cbea6e4abff617fac24",
+      "packagedSha256": "5b2fabf5cb847ba622e80dea9db3e48121e94ad4789e8cbea6e4abff617fac24",
+      "adapted": false
+    },
+    "openai-main/skills/convert-render/references/connection-recovery.md": {
+      "canonicalSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "packagedSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "adapted": false
+    },
+    "openai-main/skills/convert-render/references/ordinary-documents.md": {
+      "canonicalSha256": "22f8d7842ec5b5fd1e2678a64910c352440c594daf72454d5335dabf6a5b3220",
+      "packagedSha256": "22f8d7842ec5b5fd1e2678a64910c352440c594daf72454d5335dabf6a5b3220",
+      "adapted": false
+    },
+    "openai-main/skills/convert-render/references/protocol-profiles.md": {
+      "canonicalSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "packagedSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "adapted": false
+    },
+    "openai-main/skills/project-artifacts/SKILL.md": {
+      "canonicalSha256": "db0d3525a61399b314d803154aab6c8e74dfd220b27a33ce2da9af8bad7b0637",
+      "packagedSha256": "9ac927664f5aa5777b8f74492f388611179de8419add82095ffb5143e7f0fa70",
+      "adapted": true
+    },
+    "openai-main/skills/project-artifacts/references/actions.md": {
+      "canonicalSha256": "0db10caf04d6cf3763787d74e1861a939703d4d6394da6416cfa108b4deb1a63",
+      "packagedSha256": "0db10caf04d6cf3763787d74e1861a939703d4d6394da6416cfa108b4deb1a63",
+      "adapted": false
+    },
+    "openai-main/skills/project-artifacts/references/agent-memory.md": {
+      "canonicalSha256": "6d2d7dc3bbcaa37d6e2cdf9ee0d86a1d7fe8a69d4921a6e383c7bfa54f51f392",
+      "packagedSha256": "6d2d7dc3bbcaa37d6e2cdf9ee0d86a1d7fe8a69d4921a6e383c7bfa54f51f392",
+      "adapted": false
+    },
+    "openai-main/skills/project-artifacts/references/agent-workspace-collaboration.md": {
+      "canonicalSha256": "7344d09465c65f73b6bc9059ea2e8e566fd027f88905efee7b20a91db81fe5ee",
+      "packagedSha256": "7344d09465c65f73b6bc9059ea2e8e566fd027f88905efee7b20a91db81fe5ee",
+      "adapted": false
+    },
+    "openai-main/skills/project-artifacts/references/connection-recovery.md": {
+      "canonicalSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "packagedSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "adapted": false
+    },
+    "openai-main/skills/project-artifacts/references/properties.md": {
+      "canonicalSha256": "1e414e64497d0e40571dd4b2cd45149e2448e7685051cb2e703ec9f400550012",
+      "packagedSha256": "1e414e64497d0e40571dd4b2cd45149e2448e7685051cb2e703ec9f400550012",
+      "adapted": false
+    },
+    "openai-main/skills/project-artifacts/references/protocol-profiles.md": {
+      "canonicalSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "packagedSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "adapted": false
+    },
+    "openai-main/skills/research-projects/SKILL.md": {
+      "canonicalSha256": "830a555db085f68ec4e4ff2faf1bdc2ee07acf079eff22630d305662a0635a41",
+      "packagedSha256": "830a555db085f68ec4e4ff2faf1bdc2ee07acf079eff22630d305662a0635a41",
+      "adapted": false
+    },
+    "openai-main/skills/research-projects/references/briefings.md": {
+      "canonicalSha256": "6cf808a51e2508ce5e9c3d26e628e1d6bff8cc02cf115076dd5c73fe9aebc8f2",
+      "packagedSha256": "6cf808a51e2508ce5e9c3d26e628e1d6bff8cc02cf115076dd5c73fe9aebc8f2",
+      "adapted": false
+    },
+    "openai-main/skills/research-projects/references/connection-recovery.md": {
+      "canonicalSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "packagedSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "adapted": false
+    },
+    "openai-main/skills/research-projects/references/evidence.md": {
+      "canonicalSha256": "e7651d788508f21980a8c4aa90099dc174009ad5c7358220f1e6b91b91f566f4",
+      "packagedSha256": "e7651d788508f21980a8c4aa90099dc174009ad5c7358220f1e6b91b91f566f4",
+      "adapted": false
+    },
+    "openai-main/skills/research-projects/references/protocol-profiles.md": {
+      "canonicalSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "packagedSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "adapted": false
+    },
+    "openai-main/skills/research-projects/references/source-reading.md": {
+      "canonicalSha256": "d70ebbc4220185f8c7e3f902619814faa74410fabdb9feb83a0d35754be62dca",
+      "packagedSha256": "d70ebbc4220185f8c7e3f902619814faa74410fabdb9feb83a0d35754be62dca",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/SKILL.md": {
+      "canonicalSha256": "9d67f995b2fe92ac1f3b784034761214240b2c2239170940f4772998acd510b3",
+      "packagedSha256": "9d67f995b2fe92ac1f3b784034761214240b2c2239170940f4772998acd510b3",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/comparison.md": {
+      "canonicalSha256": "f8a4ed39deba3c704656cafbf5468d51d32bcfaa42b2d45f62348a6433c4fcae",
+      "packagedSha256": "f8a4ed39deba3c704656cafbf5468d51d32bcfaa42b2d45f62348a6433c4fcae",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/connection-recovery.md": {
+      "canonicalSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "packagedSha256": "dc90ac9c1a0d84c115acba34e26b9895d14888e2730f4063d300090c720a26a3",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/openapi.md": {
+      "canonicalSha256": "32ab0fc3aafe4127926fd5fcb2099d4db3e4d51500c5a0b7c660603855122b72",
+      "packagedSha256": "32ab0fc3aafe4127926fd5fcb2099d4db3e4d51500c5a0b7c660603855122b72",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/protocol-profiles.md": {
+      "canonicalSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "packagedSha256": "6725b0fbc49579fea74739e388ac977ed51f82cf2a74af5e5d127228ec703e7a",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/sarif.md": {
+      "canonicalSha256": "b7e7319cf575bb008b09187b40d930dd1eed95b1420fee5b750bf54e452b64aa",
+      "packagedSha256": "b7e7319cf575bb008b09187b40d930dd1eed95b1420fee5b750bf54e452b64aa",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/sbom.md": {
+      "canonicalSha256": "d9138036e9c7bbc90fe1db1fe47cd2c61fcf95db74b307d86d95ee02ac838f89",
+      "packagedSha256": "d9138036e9c7bbc90fe1db1fe47cd2c61fcf95db74b307d86d95ee02ac838f89",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/security-summary.md": {
+      "canonicalSha256": "e2f03ccb53d611cfa59b6fe4e3ba10f3bb79dbd5334e9909e694de7c48516b6a",
+      "packagedSha256": "e2f03ccb53d611cfa59b6fe4e3ba10f3bb79dbd5334e9909e694de7c48516b6a",
+      "adapted": false
+    },
+    "openai-main/skills/structured-analysis/references/vex-csaf.md": {
+      "canonicalSha256": "e00f0761959c8b906bf8f542e224ba3175e704fbfcd0cd0766a9ebb40049747a",
+      "packagedSha256": "e00f0761959c8b906bf8f542e224ba3175e704fbfcd0cd0766a9ebb40049747a",
+      "adapted": false
+    },
+    "openai-public/skills/public-conversion-help/SKILL.md": {
+      "canonicalSha256": "a20799a6fd5a3147e70e5435b505ebcdc45aaaaaddd404626f1780ebb685bf51",
+      "packagedSha256": "133f74df6228f36b1e9362d978bf57f189e0f350ade206abca986a91391f3f45",
+      "adapted": true
+    },
+    "openai-public/skills/public-markdown-conversion/SKILL.md": {
+      "canonicalSha256": "f610feaca7804d08f0d0fda37dc60b8723d4d8fecb292f59327d9100cee84df3",
+      "packagedSha256": "b79cda91ac91c2e08717d9211d14c11f27fc89c0cea32a10901be08c7cdd8b51",
+      "adapted": true
+    },
+    "openai-public/skills/public-markdown-conversion/references/conversion.md": {
+      "canonicalSha256": "8875122056ecf402dc9ca954b126a6fa26828706aa40d7c8c2f501a39d5a4cd1",
+      "packagedSha256": "8875122056ecf402dc9ca954b126a6fa26828706aa40d7c8c2f501a39d5a4cd1",
+      "adapted": false
+    }
+  }
+}

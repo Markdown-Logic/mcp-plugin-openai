@@ -1,44 +1,6 @@
----
-title: 連接 AI 助理
-summary: 不需帳戶即可轉換提供的 Markdown，或授權助理處理團隊文件。
-appliesTo: 匿名轉換不需要帳戶。 適用於所有方案。讀取文件已儲存的版本歷史需要 Personal 以上方案。
-updated: 2026-10-22
-verb: out
-steps:
-  - 不需帳戶轉換提供的 Markdown 時，連接 https://markdownlogic.com/mcp 並尋找 convert_markdown。
-  - "連接團隊的私人文件： 將 MCP 用戶端指向 https://mcp.markdownlogic.com，讓它完成瀏覽器登入。"
-  - 詢問它能看到哪些內容。它能存取的專案和文件，與你的角色和方案在應用程式中提供的範圍相同。
-  - 在帳戶選單的「應用程式」中檢視或撤銷存取權限。
-related: [write-and-render, share-a-document, import-documents]
----
-
-## 不需帳戶即可轉換提供的 Markdown
-
-將 `https://markdownlogic.com/mcp` 新增為遠端 MCP 伺服器。當它提供 `convert_markdown` 時，可要求將您提供的 Markdown 轉換為 PDF、DOCX、HTML 或 EPUB。這個公開連線不需要帳戶、OAuth 登入或瀏覽器驗證。
-
-傳送完整 Markdown，上限為 **128 KiB**（131,072 個 UTF-8 位元組）。結果是最大 **2 MiB**（2,097,152 位元組）的內嵌 base64 檔案，用戶端必須儲存或附加這些位元組。其 URI 不是代管下載位址或永久連結。公開轉換不會讀取私人檔案或專案，也不會取得遠端 URL 或圖片。
-
-目前轉換額度為：**每個網路位址每分鐘 3 次**、**每個位址每個 UTC 日 20 次**、**公開使用者共用每個 UTC 日 80 次**。另有每 60 秒 20 次 MCP POST 請求限制，包括探索請求。這些是最大大小和容量額度，低於限制也可能轉換失敗。遇到容量拒絕請等待；不要自動重試拒絕或結果不明的請求，不要縮短原文或聲稱檔案已產生。
-
-## 用戶端支援與 Skills
-
-遠端 MCP、OAuth、內嵌檔案儲存和 Skills 支援取決於用戶端宿主。支援的宿主可逐步載入 5 個私人工作流程 Skills 和 2 個公開轉換／說明 Skills；不會增加權限或工具。已提供的一般工具與資源不依賴 Skills。若用戶端無法儲存內嵌檔案，可使用[瀏覽器轉換器](https://markdownlogic.com/)，它有自己的限制和瀏覽器驗證。
-
 ## 連接團隊的私人文件
 
 Markdown Logic 的 MCP 伺服器讓 AI 助理透過 Model Context Protocol 讀取和寫入你的文件，大多數助理都已支援這個協定。能讀取文件的助理可以回答與文件有關的問題；能寫入的助理還可以把答案存回文件，作為一次更新。
-
-## 連接助理
-
-使用支援遠端 MCP 和瀏覽器 OAuth 的用戶端，新增以下私人伺服器 URL：
-
-```
-https://mcp.markdownlogic.com
-```
-
-在用戶端中將這個 URL 新增為 MCP 伺服器。用戶端會自行找到登入流程：瀏覽器視窗開啟後，你以自己的身分登入，助理就會取得一個限於你帳戶範圍的權杖。已經持有存取權杖的指令碼或 CLI 類用戶端可以略過瀏覽器步驟，直接以 `Authorization: Bearer <token>` 標頭傳送權杖。
-
-請不要重複使用為 CI 建立、僅支援 `client_credentials` 的 OAuth 用戶端。這類用戶端沒有重新導向 URI，無法完成瀏覽器登入。MCP 用戶端會自行註冊。
 
 ## 助理能做什麼
 
